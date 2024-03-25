@@ -24,6 +24,10 @@ Task manager app using React + Typescript
 - API_PORT = 'your_api_port' (ex: 5000)
 - MONGODB_URL = 'your_mongo_connection_url:port' (ex: 'mongodb://localhost:27017')
 
+### Frontend Env Variables
+
+- VITE_APP_API_URL = 'your_api_url_here' (ex: 'http://localhost:5000')
+
 ### mongoDB
 
 - Create a database 'tasks' with collection 'tasks'
