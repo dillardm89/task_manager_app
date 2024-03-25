@@ -1,0 +1,14 @@
+# VSCode
+.vscode
+/vscode
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+# dotenv environment variable files
+.env
+
+# JS output files
+dest/
+*.js
