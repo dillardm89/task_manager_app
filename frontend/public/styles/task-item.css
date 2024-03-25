@@ -1,0 +1,70 @@
+#task-name {
+    text-align: center;
+    text-decoration: underline;
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+#task-info {
+    padding: 0 15px 15px 15px;
+}
+
+#task-summary {
+    text-align: center;
+}
+
+#task-bottombar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#task-date {
+    margin: 0;
+    display: inline;
+    background-color: var(--lightest);
+    color: var(--darkest);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#task-late {
+    display: inline;
+    background-color: lightcoral;
+    color: var(--darkest);
+    padding: 5px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+#task-icons {
+    display: flex;
+    gap: 5px;
+    align-items: right;
+}
+
+.icon-link {
+    border-radius: 10px;
+}
+
+.icon-edit {
+    background-color: var(--lightest);
+}
+
+.icon-edit:hover {
+    background-color: lightgreen;
+}
+
+.icon-delete {
+    background-color: lightcoral;
+}
+
+.icon-delete:hover {
+    background-color: red;
+}
+
+.icon-link img {
+    width: 20px;
+    height: 20px;
+}

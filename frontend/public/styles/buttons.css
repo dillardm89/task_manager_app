@@ -1,0 +1,55 @@
+#header-button {
+    background-color: var(--medium-light);
+    padding: 10px;
+    margin-right: 50px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: 3px ridge var(--medium-light);
+}
+
+#header-button:hover {
+    background-color: var(--lightest);
+    color: var(--darkest);
+}
+
+.button-div {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#submit-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: var(--medium-dark);
+    border-radius: 5px;
+}
+
+#submit-btn:hover {
+    background-color: var(--medium-light);
+}
+
+#cancel-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: var(--medium-dark);
+    border-radius: 5px;
+}
+
+#cancel-btn:hover {
+    background-color: var(--lightest);
+    color: var(--darkest);
+    border-color: var(--darkest);
+}
+
+#delete-btn {
+    width: 100px;
+    padding: 10px;
+    background-color: var(--medium-dark);
+    border-radius: 5px;
+}
+
+#delete-btn:hover {
+    background-color: lightcoral;
+    columns: var(--darkest);
+}

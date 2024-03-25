@@ -1,0 +1,53 @@
+#form-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    color: black;
+    gap: 10px;
+}
+
+#form-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.input-label {
+    width: 120px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.input-label p {
+    padding: 0;
+    margin: 0;
+}
+
+.form-input-fields {
+    align-self: flex-end;
+}
+
+.input-field {
+    background-color: white;
+    color: black;
+}
+
+.input-field#taskName,
+.input-field#taskSummary {
+    width: 15rem;
+}
+
+.input-date-field {
+    -webkit-calendar-picker-indicator {
+        display: none;
+        -webkit-appearance: none;
+    }
+
+    background-color: white;
+    color: black;
+}
+
+.input-field:hover,
+.input-field:active {
+    background-color: lightgoldenrodyellow;
+}
