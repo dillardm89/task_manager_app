@@ -1,0 +1,6 @@
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.txt linguist-detectable=false
+*.json linguist-detectable=false
+
+src/* linguist-vendored=false
