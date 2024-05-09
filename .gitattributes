@@ -3,4 +3,5 @@
 *.txt linguist-detectable=false
 *.json linguist-detectable=false
 
-src/* linguist-vendored=false
+frontend/* linguist-vendored=false
+backend/* linguist-vendored=false
