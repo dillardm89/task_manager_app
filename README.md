@@ -19,34 +19,23 @@ Task manager app using React + Typescript
 
 ## Installation
 
-### Backend Env Variables
-
-- API_PORT = 'your_api_port' (ex: 5000)
-- MONGODB_URL = 'your_mongo_connection_url:port' (ex: 'mongodb://localhost:27017')
-
-### Frontend Env Variables
-
-- VITE_APP_API_URL = 'your_api_url_here' (ex: 'http://localhost:5000')
-
-### mongoDB
+### MongoDB
 
 - Create a database 'tasks' with collection 'tasks'
 - Import data from 'database-files': tasks.json
 
-### Node_Modules
+### Frontend
 
-- cd to 'backend' directory
-- 'npm install' to install necessary modules from package.json
+```bash
+cd frontend
+npm install
+npm run dev
+```
 
-- cd to 'frontend' directory
-- 'npm install' to install necessary modules from package.json
+### Backend
 
-### Run in Development
-
-- cd to 'backend' directory
-- 'npm run start'
-- uses 'localhost:5000'
-
-- cd to 'frontend' directory
-- 'npm run dev'
-- uses 'localhost:5174'
+```bash
+cd backend
+npm install
+npm start
+```
